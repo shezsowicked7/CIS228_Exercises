@@ -7,25 +7,25 @@ import 'app_drawer.dart'; // import your Drawer class
 class ProductList extends MyApp {
   final List<Map<String, String>> products = [
     {
-      'name': 'T-Shirt',
+      'name': 'Arabica Bean',
       'description':
-          'A t-shirt is a type of shirt that is typically made of soft, lightweight fabric such as cotton or a cotton blend. It usually has short sleeves and a round neckline, although some t-shirts may have a V-neck or other types of necklines. T-shirts can come in a variety of colors and patterns, ranging from solid colors to graphic prints.',
-      'price': '\₱399.00',
-      'image': '../assets/tshirt.png'
+          'Arabica beans are a type of coffee bean that is larger and more oval-shaped than Robusta beans.',
+      'price': '\₱780.00',
+      'image': '../assets/arabica.jpg'
     },
     {
-      'name': 'Jeans',
+      'name': 'Robusta Bean',
       'description':
-          'Jeans are a type of pants that are made of denim fabric. They are a staple of casual wear and are known for their durability, comfort, and versatility. Jeans typically have a button or zipper fly, and may also have belt loops and pockets.',
-      'price': '\₱699.00',
-      'image': '../assets/jeans.png'
+          'Robusta beans are a type of coffee bean that are smaller and rounder than Arabica beans. They have a strong, bold flavor with a higher caffeine content and a darker color when roasted.',
+      'price': '\₱880.00',
+      'image': '../assets/robusta.jpg'
     },
     {
-      'name': 'Jacket',
+      'name': 'Excelsa Bean',
       'description':
-          'A jacket is a type of outerwear that is designed to provide warmth and protection from the elements. Jackets come in many different styles, from lightweight windbreakers to heavy-duty parkas, and can be made from a variety of materials, including cotton, leather, and synthetic fabrics.',
-      'price': '\₱999.00',
-      'image': '../assets/jacket.png'
+          'Excelsa beans have an elongated shape and are similar in size to Arabica beans. They are known for their unique flavor profile that is often described as tart and fruity with a hint of smokiness.',
+      'price': '\₱1390.00',
+      'image': '../assets/excelsa.jpg'
     },
   ];
 
@@ -34,7 +34,7 @@ class ProductList extends MyApp {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Product List'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.black,
       ),
       drawer: const MyDrawer(), // use your Drawer class here
       body: ListView.builder(

@@ -15,7 +15,7 @@ class MyDrawer extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: const DecorationImage(
-                image: AssetImage('../assets/drawback.png'),
+                image: AssetImage('../assets/coffee.png'),
                 fit: BoxFit.cover,
               ),
               color: Colors.white.withOpacity(0.9),
@@ -23,7 +23,7 @@ class MyDrawer extends StatelessWidget {
             child: const DrawerHeader(
               child: Center(
                 child: Text(
-                  'The Fashion Collective',
+                  'Bean Voyage',
                   style: TextStyle(
                     fontFamily: 'Norican-Regular',
                     color: Colors.white,
@@ -42,7 +42,7 @@ class MyDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.shopping_bag),
+            leading: const Icon(Icons.coffee),
             title: const Text('My Products'),
             onTap: () {
               Navigator.pushReplacement(

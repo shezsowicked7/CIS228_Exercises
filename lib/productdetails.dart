@@ -11,7 +11,7 @@ class ProductDetails extends MyApp {
     return Scaffold(
       appBar: AppBar(
         title: Text(product['name']!),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.black,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,

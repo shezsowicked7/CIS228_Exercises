@@ -8,7 +8,7 @@ class AboutPage extends MyApp {
     return Scaffold(
       appBar: AppBar(
         title: Text('About'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.black,
       ),
       drawer: MyDrawer(),
       body: Padding(
@@ -16,13 +16,13 @@ class AboutPage extends MyApp {
         child: Column(
           children: [
             Image.asset(
-              '../assets/logo.png', // Replace with your image path
+              '../assets/coffee.png', // Replace with your image path
               height: 300.0,
               width: 1500.0,
             ),
             SizedBox(height: 16.0),
             Text(
-              'Welcome to My Ecommerce App! This app was created using Flutter and is designed to showcase some basic ecommerce functionality. You can browse a list of products, view product details, and even add products to your cart or buy them directly. We hope you enjoy using our app!',
+              'At Bean Voyage, we are passionate about bringing you the finest, ethically-sourced coffee beans from around the world. From the first sip to the last, we are committed to delivering a rich and satisfying coffee experience that delights the senses and nourishes the soul. Whether you are a coffee connoisseur or just looking for a great cup of joe, we invite you to join us on a journey of taste and discovery.',
               style: TextStyle(fontSize: 20.0),
               textAlign: TextAlign.center,
             ),
